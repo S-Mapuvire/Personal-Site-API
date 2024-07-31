@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "personal-site-api",
+  "version": "1.0.0",
+  "description": "Backend service for personal site to request and access resources from",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Mapuvire/Personal-Site-API.git"
+  },
+  "keywords": [
+    "backend",
+    "API",
+    "personal-site"
+  ],
+  "author": "S.Mapuvire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-Mapuvire/Personal-Site-API/issues"
+  },
+  "homepage": "https://github.com/S-Mapuvire/Personal-Site-API#readme"
+}
